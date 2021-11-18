@@ -1,0 +1,15 @@
+{
+  "name": "ui-font-gen",
+  "version": "1.0.0",
+  "description": "A little script that converts specially designed PNG images into `IFont` classes for use in UI rendering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "stratum-ar",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
