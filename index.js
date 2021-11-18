@@ -21,7 +21,7 @@ if (process.argv.length !== 3) {
 
             if (y === 0 && rgb.r === 255 && rgb.g === 0) {
                 characterWidths.push(x - xOffset)
-                characterOffsets.push(xOffset)
+                characterOffsets.push(xOffset + 1)
                 byteData.push(0)
 
                 xOffset = x
